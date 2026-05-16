@@ -3,6 +3,7 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+
   images: {
     unoptimized: true,
     remotePatterns: [
@@ -13,6 +14,8 @@ const nextConfig = {
       },
     ],
   },
+
+  allowedDevOrigins: ['*'],
 }
 
 export default nextConfig
